@@ -21,7 +21,7 @@ import { TournamentMatchStatus } from "../Backbone/Config";
 import { msg } from "../Modules/Logger";
 
 export const Bot = new Client({ intents: [GatewayIntentBits.Guilds] });
-const Rest = new REST({ version: "10" }).setToken(process.env.BOT_TOKEN || "MTUwMjQyMDM1MTY2ODMyNjQxMA.GEyw0W.GP-8PQASc1Y0TCvAPxIRj4052k70JhbB8YY5BU");
+const Rest = new REST({ version: "10" }).setToken(process.env.BOT_TOKEN || "MTUzMTA4NjY3ODU3NDM3MTA4Nw.G6Lc2T.Q27dcgFqnO_8OMESyMx7ig4A-Ih_PYX5P0PtzQ");
 
 
 const mapChoices = [
